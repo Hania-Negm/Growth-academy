@@ -292,6 +292,12 @@ ul{
     .course-section .col-3{
         width: 50%;
     }
+
+    .course-heading{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 610px){
@@ -380,6 +386,15 @@ ul{
         align-items: center;
         text-align: center;
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 870px){
+    .about-section .about-li{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
 /*#endregion*/
