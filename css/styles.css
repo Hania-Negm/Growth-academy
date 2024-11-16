@@ -628,6 +628,10 @@ footer .first-row{
 }
 
 @media screen and (max-width: 890px){
+    footer{
+        padding:40px 16px;
+    }
+
     .first-row , .second-row , .third-row{
         flex-direction: column;
         gap: 48px;
